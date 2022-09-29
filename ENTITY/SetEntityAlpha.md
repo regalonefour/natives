@@ -15,6 +15,8 @@ This native sets the entity's alpha level.
 * **alphaLevel**: The alpha level ranges from 0 to 255, but changes occur every 20% (every 51).
 * **skin**: Whether or not to change the alpha of the entity's skin.
 
+Enabling true for skin on an entity will cause it to become transparent during night time, allowing lights and the skybox to pass through it.
+
 ## Examples
 
 ```lua
